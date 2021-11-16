@@ -4,8 +4,8 @@
 
 vm-count = 1
 vm-name = "Demo"
-vm-template-name = "Win2019-Template-Base"
-vm-cpu = 2
+vm-template-name = " WindowsDesktop"
+vm-cpu = 1
 vm-ram = 4096
 vm-guest-id = "windows9srv-64"
 
