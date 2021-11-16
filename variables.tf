@@ -5,11 +5,11 @@ variable "vsphere_password" {}
 variable "vsphere_server" {}
 
 variable "windows_template" {
-    default = "Win2019-Template-Base"
+    default = " WindowsDesktop"
 }
 
 variable "computer_name" {
-    default = "serverdeploy"
+    default = "windowsdesktop"
 }
 
 variable "vm-count" {
@@ -24,7 +24,7 @@ variable "vm-name" {
 variable "vm-cpu" {
   type        = string
   description = "Number of vCPU for the vSphere virtual machines"
-  default     = "2"
+  default     = "1"
 }
 
 variable "vm-ram" {
